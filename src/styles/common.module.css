@@ -1,0 +1,27 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #482307;
+  font-weight: bold;
+}
+.home h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.buttonLayer {
+  display: flex;
+  margin-bottom: 100px;
+}
+.buttonLayer button {
+  margin: 5px;
+  width: 280px;
+  height: 40px;
+  border-radius: 6px;
+  background-color: #fff;
+  box-shadow: rgba(72, 35, 7, 0.555) 0px 6px 12px -2px,
+    rgba(72, 35, 7, 0.555) 0px 3px 7px -3px;
+}
+.buttonLayer button:hover {
+  outline: 3px solid rgba(72, 35, 7, 0.363);
+}
